@@ -36,7 +36,7 @@ a#mio:hover{
     box-shadow:1px 1px 10px black;
 }
 
-a#botonpage{
+a#unboton{
   font-weight: bold;
   background: black;
   color: white;
@@ -48,7 +48,7 @@ a#botonpage{
     border-radius: 30px;
 }
 
-a#botonpage:hover{
+a#unboton:hover{
     background:lightblue;
     color:black;
     transition:all ease 1s;
