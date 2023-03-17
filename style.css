@@ -2,7 +2,7 @@ html,body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-    background:rgb(200,255,255);
+    background:rgb(220,255,255);
 }
 canvas {
   display: block;
@@ -25,7 +25,7 @@ a#mio{
   transform: translate(-50%, -50%);
     box-shadow: 1px 1px 20px black;
     padding:1rem 2rem;
-    border-radius: 2000px;
+    border-radius: 30px;
 }
 
 a#mio:hover{
@@ -33,5 +33,25 @@ a#mio:hover{
     color:black;
     transition:all ease 1s;
     top:50.5%;
+    box-shadow:1px 1px 10px black;
+}
+
+a#botonpage{
+  font-weight: bold;
+  background: black;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    padding:1rem 2rem;
+    border-radius: 30px;
+}
+
+a#botonpage:hover{
+    background:lightblue;
+    color:black;
+    transition:all ease 1s;
+    transition-property: all; 
     box-shadow:1px 1px 10px black;
 }
